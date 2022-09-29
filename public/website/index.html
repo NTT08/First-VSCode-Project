@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Imports -->
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" defer></script>
+    <script src="socket.io/socket.io.js" defer></script>
+    <script src="script.js" defer></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="navigation-bar">
+        <div class="icon">
+            <h1>Icon.</h1>
+        </div>
+        <ul class="nav-links">
+            <li class="nav-link"><a href="#">Home</a></li>
+            <li class="nav-link"><a href="#">About</a></li>
+            <li class="nav-link"><a href="#">Contact</a></li>
+            <li class="nav-link"><a href="#">Usage</a></li>
+            <li class="nav-link"><a href="#">Tutorial</a></li>
+        </ul>
+        <div class="nav-actions">
+            <button class="recommended">Sign up</button>
+            <button class="not-recommended">Log in</button>
+        </div>
+    </div>
+    <div class="hero">
+        <div class="hero-container">
+            <div class="hero-phrase">
+                <h1 class="hero-title">
+                    Got a meeting? <br> No problem.
+                </h1>
+                <p class="hero-description">You can create a Callr meeting with just a click.</p>
+                <div class="hero-actions">
+                    <button class="hero-button recommended">Sign up</button>
+                    <button class="hero-button not-recommended"">Show us How</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/hero-image.jpg">
+            </div>
+        </div>
+    </div>
+    <ul class="supportive-apps">
+        <li class="logo-google"><ion-icon name="logo-google"></ion-icon></li>
+        <li class="logo-microsoft"><ion-icon name="logo-microsoft"></ion-icon></li>
+        <li class="logo-apple"><ion-icon name="logo-apple"></ion-icon></li>
+        <li class="logo-android"><ion-icon name="logo-android"></ion-icon></li>
+    </ul>
+</body>
+</html>
